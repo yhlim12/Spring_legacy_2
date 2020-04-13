@@ -9,7 +9,7 @@ public class SubController {
 	
 	@RequestMapping(value = "/sub1")
 	public void sub1() {
-
+			
 	}
 	
 	@RequestMapping(value = "/sub2")
