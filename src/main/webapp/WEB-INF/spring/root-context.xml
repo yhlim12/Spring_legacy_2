@@ -4,5 +4,10 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
 	
 	<!-- Root Context: defines shared resources visible to all other web components -->
+	
+	<bean class="com.iu.spring_2.member.MemberDAO" id="memberDAO"></bean>
+	<bean class="com.iu.spring_2.member.MemberService" id="memberService">
+		<constructor-arg name="memberDAO" ref="memberDAO"></constructor-arg>
+	</bean>
 		
 </beans>

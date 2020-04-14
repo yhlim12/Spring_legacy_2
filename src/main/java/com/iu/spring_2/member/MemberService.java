@@ -3,8 +3,8 @@ package com.iu.spring_2.member;
 public class MemberService {
 	private MemberDAO memberDAO;
 	
-	public MemberService() {
-		memberDAO = new MemberDAO();
+	public MemberService(MemberDAO memberDAO) {
+		this.memberDAO = memberDAO;
 	}
 	
 	public int memberUpdate(MemberVO memberDTO) throws Exception{
