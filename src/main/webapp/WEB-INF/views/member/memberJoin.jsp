@@ -20,7 +20,7 @@
 
 			<div class="form-group">
 				<label for="Id">Id:</label> <input type="text" class="form-control"
-					id="id" placeholder="Enter Id" name="id">
+					id="id" placeholder="Enter Id" value="${id}" name="id">
 			</div>
 
 			<div class="form-group">
